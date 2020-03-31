@@ -1,0 +1,13 @@
+.advice{
+  background-color: #FEEE01;
+  color: black;
+  text-align: center;
+  max-height: 50px;
+  font-family: Roboto;
+}
+
+.advice-text{
+  margin: 0px;
+  padding: 5px;
+  font-size: 15px;
+}

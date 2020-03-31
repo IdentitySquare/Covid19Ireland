@@ -1,0 +1,28 @@
+.Links {
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.link{
+  width: 30rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  align-self: center;
+
+  a {
+    font-family: Roboto;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    font-weight: 900;
+    text-decoration: none;
+    color: blue;
+    background: blue;
+  }
+}
+
+.questions{
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+}

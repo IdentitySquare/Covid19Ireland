@@ -1,0 +1,36 @@
+.map{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#ie-map{
+  fill: #e0e0e0;
+  stroke: #ffffff
+}
+
+.loading{
+  height: 700px;
+}
+
+/* path:hover, circle:hover {
+  fill: #E6F4E8 !important;
+  cursor: pointer;
+} */
+
+.n1{
+  fill: #FDD5C4;
+}
+
+.n2{
+  fill: #FCA689;
+}
+
+.n3{
+  fill: #F97355;
+}
+
+.n4{
+  fill: #BF171B;
+}

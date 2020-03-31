@@ -1,0 +1,14 @@
+.map-header{
+  padding-top: 40px;
+  font-family: 'Roboto' !important;
+}
+
+h3{
+  font-family: 'Roboto' !important;
+  margin-bottom: 5px;
+}
+
+.last-updated{
+  font-size: 14px;
+  color: #89CB92;
+}

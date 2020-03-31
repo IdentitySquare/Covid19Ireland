@@ -1,0 +1,105 @@
+.row{
+  font-family: 'Montserrat';
+}
+
+.disclaimer{
+  display: flex;
+  padding-left: 10px;
+}
+
+.disclaimer p{
+  font-size: 16px;
+}
+
+.confirmed{
+  padding: 5px;
+}
+
+.confirmed > .card{
+  background-color: #FFE5E6;
+  color: #FF0D3B;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.card-title{
+  font-size: 14px;
+}
+
+.card-subtitle{
+  font-size: 14px;
+}
+
+.card-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.active{
+  padding: 5px;
+}
+
+.active > .card{
+  background-color: #F1F7FE;
+  color: #027CFF;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.active > .card > .card-body > .card-title{
+  font-size: 14px;
+}
+
+.active > .card > .card-body > .card-subtitle{
+  font-size: 14px;
+}
+
+.active > .card > .card-body > .card-text{
+  font-size: 30px;
+}
+
+.recovered{
+  padding: 5px;
+}
+
+.recovered > .card{
+  background-color: #E6F4E8;
+  color: #2BA746;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.recovered > .card > .card-body > .card-title{
+  font-size: 14px;
+}
+
+.recovered > .card > .card-body > .card-subtitle{
+  font-size: 14px;
+}
+
+.recovered > .card > .card-body > .card-text{
+  font-size: 30px;
+}
+
+.deceased{
+  padding: 5px;
+}
+
+.deceased > .card{
+  background-color: #F6F6F7;
+  color: #6D767E;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.deceased > .card > .card-body > .card-title{
+  font-size: 14px;
+}
+
+.deceased > .card > .card-body > .card-subtitle{
+  font-size: 14px;
+}
+
+.deceased > .card > .card-body > .card-text{
+  font-size: 30px;
+}

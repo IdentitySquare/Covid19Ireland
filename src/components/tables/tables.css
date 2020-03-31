@@ -1,0 +1,49 @@
+.county-cases{
+  border-width: 0px;
+  border-top: 0px;
+}
+
+.table{
+  padding-top: 15px;
+  border-radius: 15px;
+  font-family: "Roboto";
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #F6F6F7;
+}
+
+.county-cases td{
+  border: none !important;
+  font-family: Roboto;
+  font-weight: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.county-cases th{
+  border: none !important;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.county-cases tr{
+  padding-left: 20px;
+}
+
+.test{
+  margin: 20px !important;
+}
+
+.county{
+  text-align: left;
+}
+
+.percent{
+  text-align: right;
+}
+
+.cases{
+  text-align: right;
+}

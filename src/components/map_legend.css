@@ -1,0 +1,36 @@
+.map-legend p{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.n1{
+  background-color: #FDD5C4;
+  height:10px;
+  width: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.n2{
+  background-color: #FCA689;
+  height:10px;
+  width: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.n3{
+  background-color: #F97355;
+  height:10px;
+  width: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.n4{
+  background-color: #BF171B;
+  height:10px;
+  width: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
