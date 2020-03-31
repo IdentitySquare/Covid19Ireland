@@ -8,8 +8,14 @@ import Footer from "../components/footer"
 
 import "../components/main.css"
 
+import { Helmet } from "react-helmet"
+
 const Faq = () => (
   <>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>COVID19 Ireland | FAQ</title>
+    </Helmet>
     <Header />
     <Advicebar/>
     <Container>

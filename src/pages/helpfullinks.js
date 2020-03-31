@@ -8,8 +8,14 @@ import Footer from "../components/footer"
 
 import "../components/main.css"
 
+import { Helmet } from "react-helmet"
+
 const HelpfulLinks = () => (
   <>
+  <Helmet>
+    <meta charSet="utf-8" />
+    <title>COVID19 Ireland | Helpful Links</title>
+  </Helmet>
   <Header />
   <Advicebar/>
   <Container>

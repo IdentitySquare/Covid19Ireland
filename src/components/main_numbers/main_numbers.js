@@ -63,16 +63,16 @@ class MainNumbers extends React.Component{
         <>
         <MapHeader dateUpdated="-"/>
         <Row>
-          <Col xs={3} sm={3} md={3} lg={3} className="confirmed">
+          <Col xs={6} sm={6} md={3} lg={3} className="confirmed">
             <Confirmed totalNumberOfCases="-" newCases=""/>
           </Col>
-          <Col xs={3} sm={3} md={3} lg={3} className="active">
+          <Col xs={6} sm={6} md={3} lg={3} className="active">
             <Active active="-"/>
           </Col>
-          <Col xs={3} sm={3} md={3} lg={3} className="recovered">
+          <Col xs={6} sm={6} md={3} lg={3} className="recovered">
             <Recovered totalRecovered="-" newRecovered="-"/>
           </Col>
-          <Col xs={3} sm={3} md={3} lg={3} className="deceased">
+          <Col xs={6} sm={6} md={3} lg={3} className="deceased">
             <Deceased totalNumberOfDeaths="-" newDeaths=""/>
           </Col>
           <div className="disclaimer">

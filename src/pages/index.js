@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Header from "../components/header"
-import Hello from "../components/new_cases"
-import Image from "../components/image"
 import SEO from "../components/seo"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
@@ -18,9 +16,14 @@ import "typeface-roboto";
 import "typeface-montserrat";
 import Map from "../components/map"
 import MapLegend from "../components/map_legend"
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>COVID19 Ireland</title>
+    </Helmet>
     <Header/>
     <Advicebar />
     <Container>
