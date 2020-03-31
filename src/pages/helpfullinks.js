@@ -14,6 +14,7 @@ const HelpfulLinks = () => (
   <>
   <Helmet>
     <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
     <title>COVID19 Ireland | Helpful Links</title>
   </Helmet>
   <Header />
