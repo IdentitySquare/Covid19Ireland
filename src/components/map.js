@@ -14,7 +14,7 @@ class Map extends React.Component{
   }
 
   getData = async () => {
-    let data = await axios.get("https://gsx2json.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=2")
+    let data = await axios.get("https://gsx2json.herokuapp.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=2")
     this.setState({ results: data.data.columns });
     // console.log(this.state.results);
     this.setup();

@@ -27,7 +27,7 @@ class MainNumbers extends React.Component{
   }
 
   getData = async () => {
-    let data = await axios.get("https://gsx2json.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=1")
+    let data = await axios.get("https://gsx2json.herokuapp.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=1")
     this.setState({ results: data.data.columns });
     console.log(this.state.results);
   };
