@@ -23,7 +23,7 @@ class AgeRange extends React.Component{
   }
 
   getData = async () => {
-    let data = await axios.get("http://gsx2json.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=3")
+    let data = await axios.get("https://gsx2json.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=3")
     this.setState({ results: data.data.rows[0] });
     this.setup()
   };

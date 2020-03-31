@@ -21,7 +21,7 @@ class Spreading extends React.Component{
   }
 
   getData = async () => {
-    let data = await axios.get("http://gsx2json.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=5")
+    let data = await axios.get("https://gsx2json.com/api?id=1gzGPP2ezOmzcTQ_-ypa_2yAcAT8SyJcsumOou6yNzTc&sheet=5")
     this.setState({ results: data.data.rows });
     console.log(this.state.results);
   };
