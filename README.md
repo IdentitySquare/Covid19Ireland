@@ -1,10 +1,6 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
+<h5 align="center">www.covid19ireland.info</h2>
+
 <h1 align="center">
-  COVID-19 Ireland
+  🦠 COVID-19 Ireland Tracker
 </h1>
 
