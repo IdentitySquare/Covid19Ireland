@@ -13,6 +13,8 @@
   
 <p>If you're new to contributing to Open Source on Github, <a href="https://guides.github.com/activities/contributing-to-open-source/">this guide</a> can help you get started. Please check out the contribution guide for more details on how issues and pull requests work.</p>
 
+<p>Checkout the issues tab in this repo to find features to work on or to fix issues.</p>
+
 
 ## 🚀 Quick start
 
