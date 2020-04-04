@@ -1,4 +1,4 @@
-<h5 align="center">covid19ireland.info</h2>
+<h5 align="center"><a href="https://covid19ireland.info">covid19ireland.info</a></h2>
 
 <h1 align="center">
   🦠 COVID-19 Ireland Tracker
